@@ -1,0 +1,7 @@
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\bin\Debug\RedPillUnitTest.dll
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\bin\Debug\RedPillUnitTest.pdb
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\bin\Debug\RedPill.dll
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\bin\Debug\RedPill.pdb
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\obj\Debug\RedPillUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\obj\Debug\RedPillUnitTest.dll
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPillUnitTest\obj\Debug\RedPillUnitTest.pdb

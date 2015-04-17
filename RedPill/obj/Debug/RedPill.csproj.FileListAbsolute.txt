@@ -1,0 +1,5 @@
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPill\bin\RedPill.dll
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPill\bin\RedPill.pdb
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPill\obj\Debug\RedPill.dll
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPill\obj\Debug\RedPill.pdb
+C:\Users\xin\Documents\Visual Studio 2012\Projects\RedPill\RedPill\obj\Debug\RedPill.csprojResolveAssemblyReference.cache
