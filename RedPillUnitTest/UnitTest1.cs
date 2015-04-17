@@ -11,8 +11,18 @@ namespace RedPillUnitTest
         {
 
             RedPill.RedPill redPill = new RedPill.RedPill();
-            var s = redPill.FibonacciNumber(-4);
-            s = redPill.FibonacciNumber(9);
+            var fibonacciNumber = redPill.FibonacciNumber(-4);
+            fibonacciNumber = redPill.FibonacciNumber(9);
+            fibonacciNumber = redPill.FibonacciNumber(93);
+
+
+            var reverseWord = redPill.ReverseWords("12*O");
+            reverseWord = redPill.ReverseWords("!!@12*O");
+
+
+            var shape = redPill.WhatShapeIsThis(1, 2, 3);
+            shape = redPill.WhatShapeIsThis(1, -2, 3);
+
         }
     }
 }

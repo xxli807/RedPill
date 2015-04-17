@@ -9,29 +9,29 @@ using System.Threading.Tasks;
 namespace RedPill
 {
 
-    [ServiceContract(Namespace="http://KnockKnock.readify.net")]
-    public interface IRedPil
+    [ServiceContract(Namespace = "http://www.myredpill.somee.com")]
+    public interface IRedPill
     {
-        [OperationContractAttribute(Action = "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken", ReplyAction = "http://KnockKnock.readify.net/IRedPill/WhatIsYourTokenResponse")] 
+        [OperationContractAttribute(Action = "http://www.myredpill.somee.com/IRedPill/WhatIsYourToken", ReplyAction = "http://www.myredpill.somee.com/IRedPill/WhatIsYourTokenResponse")]
         System.Guid WhatIsYourToken();
 
-    
 
-        [OperationContractAttribute(Action = "http://KnockKnock.readify.net/IRedPill/FibonacciNumber", ReplyAction = "http://KnockKnock.readify.net/IRedPill/FibonacciNumberResponse")]
+
+        [OperationContractAttribute(Action = "http://www.myredpill.somee.com/IRedPill/FibonacciNumber", ReplyAction = "http://www.myredpill.somee.com/IRedPill/FibonacciNumberResponse")]
         [FaultContract(typeof(ArgumentOutOfRangeException))]
         long FibonacciNumber(long n);
 
 
 
-        [OperationContractAttribute(Action = "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis", ReplyAction = "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThisResponse")]
+        [OperationContractAttribute(Action = "http://www.myredpill.somee.com/IRedPill/WhatShapeIsThis", ReplyAction = "http://www.myredpill.somee.com/IRedPill/WhatShapeIsThisResponse")]
         TriangleType WhatShapeIsThis(Int64 a, Int64 b, Int64 c);
 
 
-        [OperationContractAttribute(Action = "http://KnockKnock.readify.net/IRedPill/ReverseWords", ReplyAction = "http://KnockKnock.readify.net/IRedPill/ReverseWordsResponse")]
+        [OperationContractAttribute(Action = "http://www.myredpill.somee.com/IRedPill/ReverseWords", ReplyAction = "http://www.myredpill.somee.com/IRedPill/ReverseWordsResponse")]
         [FaultContract(typeof(ArgumentNullException))]
         string ReverseWords(string s);
 
-       
+
     }
 
 

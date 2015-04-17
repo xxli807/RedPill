@@ -8,18 +8,18 @@ using System.Web;
 
 namespace RedPill
 {
-    public class RedPill : IRedPil
+    public class RedPill : IRedPill
     {
-         
+
         public Guid WhatIsYourToken()
-        {           
+        {
             return new Guid("eff47728-3636-4355-82cf-fa54dc1a97be");
         }
 
-     
+
 
         public long FibonacciNumber(long n)
-        {     
+        {
 
             if (n < -93 || n > 93)
             {
@@ -37,16 +37,16 @@ namespace RedPill
             {
                 result = AbsN % 2 == 1 ? result : (-1) * result;
             }
-            
+
             return result;
 
         }
 
 
-        private Int64 CalculateFibonaccinumber(long n)
+        private long CalculateFibonaccinumber(long n)
         {
-            Int64 start = 1;
-            Int64 result = 1;
+            long start = 1;
+            long result = 1;
             for (int i = 3; i <= n; i++)
             {
                 result = checked(start + result);
@@ -62,19 +62,19 @@ namespace RedPill
         public TriangleType WhatShapeIsThis(Int64 a, Int64 b, Int64 c)
         {
             //throw new NotImplementedException();
-            if (a <= 0 || b <= 0 || c <= 0)
+            if (a == null || b == null || c == null)
             {
                 return TriangleType.Error;
             }
 
-            if (a == null || b == null || c == null)
+            if (a <= 0 || b <= 0 || c <= 0)
             {
                 return TriangleType.Error;
             }
 
             if (a + b > c && b + c > a && a + c > b)
             {
-                if (a == b && b == c && a == c) 
+                if (a == b && b == c && a == c)
                 {
                     return TriangleType.Equilateral;
                 }
@@ -95,11 +95,11 @@ namespace RedPill
 
         }
 
-      
+
         public string ReverseWords(string inputString)
         {
             //throw new NotImplementedException();
-            if (inputString ==null)
+            if (inputString == null)
             {
                 //return s;
                 throw new FaultException<ArgumentNullException>(new ArgumentNullException(), new FaultReason("Value cannot be null."));
@@ -117,9 +117,9 @@ namespace RedPill
             }
 
             return sb.ToString();
-      
+
         }
 
-        
+
     }
 }
